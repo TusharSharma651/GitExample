@@ -25,11 +25,19 @@
                                     <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cSp-d2-nce"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My new label in the branch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k8e-eq-eQf">
+                                <rect key="frame" x="84.5" y="222" width="205" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="D8a-ES-R02" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6rW-eL-DIM"/>
+                            <constraint firstItem="D8a-ES-R02" firstAttribute="top" secondItem="k8e-eq-eQf" secondAttribute="bottom" constant="75" id="8Nv-86-sCC"/>
                             <constraint firstItem="D8a-ES-R02" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RwP-lC-Azv"/>
+                            <constraint firstItem="k8e-eq-eQf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ibY-Ni-1G6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
